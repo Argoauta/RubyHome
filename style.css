@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.Orange {
+    color: #FE753F;
+}
+
+.list {
+    text-align: center;
+    padding: 50px;
+    margin-top: 0;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.list_btm {
+    margin-top: -15px;
+    width: 149px;
+    height: 44px;
+    font-size: 16px;
+    background-color: #2E6EFF;
+    color: white;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+
+.welcome_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    width: 558px;
+    font-size: 61px;
+}
+
+.paragraph {
+    width: 558px;
+    font-size: 18px;
+}
+
+.Search {
+    height: 181px;
+    background-color: #FFFFFF;
+}ч
+
+.Search_bar {
+    background-color: #FFFFFF;
+    width: 842px;
+    height: 70px;
+    margin-top: -42px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 30px;
+}
+
+.Search_btn {
+    width: 120px;
+    height: 54px;
+    border-radius: 10px;
+}
+
+.sponsor_title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.sponsor {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Popular-Properties {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Popular-Properties .Orange {
+    margin-top: 161px;
+    font-weight: bold;
+}
+
+.product_title {
+    margin-top: 140px;
+    font-size: 44px;
+}
+
+.Home_card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home_produc {
+    width: 362px;
+    height: 553px;
+    padding: 10px;
+}
+
+.home_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_location {
+    display: flex;
+    gap: 12px;
+}
+
+.home_price {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+button {
+    width: 138px;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 14px;
+    border-radius: 5px;
+    background-color: #2E6EFF;
+    color: white;
+    transition: all 0.3s linear;
+    border: none;
+}
+
+button:hover {
+    background: #FE753F;
+}
+
+.realtors {
+    margin-top: 140px;
+    background-color: #F9F9F9;
+    display: flex;
+}
+
+.realtors_titte {
+    text-align: center; 
+}
+
+.realtors_titte h3 {
+    font-size: 44px;
+}
+
+.realtors_card {
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.realtors_card_home_img {
+    margin-top: 118px;
+}
+
+.realtors_card_content {
+    margin-top: 30px;   
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.realtors_card_content h1 {
+    font-size: 22px;
+}
+
+.realtors_card_content p {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 210px;
+    padding: 20px;
+}
+
+.profile_title {
+    text-align: center;
+}
+
+.profile_title h1 {
+    font-size: 44px;
+}
+
+.profile_main {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_card {
+    margin-left: 50px;
+    margin-top: 70px;
+    padding: 20px 20px 20px 20px;
+    width: 558px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-color: 3px solid #FE753F1A;
+    border-radius: 10px;
+}
+
+.quote {
+    margin-top: 36px;
+    width: 488px;
+    height: 96px;
+    font-size: 16px;
+}
+
+.profile_Justin_Lee {
+    display: flex;
+    align-items: center;
+}
+
+.profile_card .profile_Justin_Lee img {
+    margin-right: 31px;
+}
+
+.registration {
+    background-color: #433E89;
+    margin-top: 140px;
+}
+
+.registration_title {
+    text-align: center;
+    padding: 70px;
+}
+
+.registration_title h1 {
+    color: white;
+    font-size: 44px;
+}
+
+.registration_title p {
+    color: white;
+}
+
+.registration_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+input {
+    border: none;
+}
+
+.registration_input input {
+    border: none;
+    width: 742px;
+    padding: 26px;
+    font-size: 16px;
+}
+
+.registration_btn {
+    margin-top: 0px;
+    background-color: #2E6EFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 162px;
+    height: 75px;
+    border-radius: 10px;
+    transition: all .3 linear;
+}
+
+button:hover {
+    background-color: #FE753F;
+}
+
+footer {
+    margin-top: 140px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_social {
+    width: 260px;
+}
+
+.footer_social ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.footer_contact {
+    width: 81px;
+    height: 171px;
+}
+
+.footer_contact h5 {
+    font-size: 22px;
+}
+
+.footer_contact li {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.footer_contact_Address {
+    width: 158px;
+}
+
+.footer_contact_Address h5 {
+    font-size: 22px;
+}
+
+.footer_contact_Address li {
+    opacity: 0.7;
+}
